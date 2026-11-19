@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "shiftchallenge",
+  "version": "${version}",
+  "name": "Shift Challenge",
+  "description": "Spam Shift 500x dalam 30 detik! Ada menu pengaturan dan hotkey.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.shiftchallenge.ShiftChallengeClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
